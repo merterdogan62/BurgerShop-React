@@ -24,16 +24,25 @@ export default function Footer() {
         <Typography variant="body2" color="text.secondary" align="center">
           <div>All rights reserved </div>
           <div>
-            <Link color="inherit" target="_blanks" href="https://facebook.com/">
+            <Link
+              color="inherit"
+              target="_blanks"
+              aria-label="reach me on facebook"
+              href="https://facebook.com/">
               <FacebookIcon />
             </Link>
             <Link
               color="inherit"
               target="_blanks"
+              aria-label="reach me on instagram"
               href="https://instagram.com/">
               <InstagramIcon />
             </Link>{" "}
-            <Link color="inherit" target="_blanks" href="https://linkedin.com/">
+            <Link
+              color="inherit"
+              target="_blanks"
+              aria-label="reach me on linkedin"
+              href="https://linkedin.com/">
               <LinkedInIcon />
             </Link>
           </div>
