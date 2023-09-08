@@ -11,6 +11,7 @@ import "./style.css";
 export default function Footer() {
   return (
     <Box
+      id="footer"
       sx={{
         backgroundColor: (theme) =>
           theme.palette.mode === "light"

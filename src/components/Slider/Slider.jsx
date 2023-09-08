@@ -8,7 +8,7 @@ import SliderImage from "./SliderImage";
 export default function Slider() {
   return (
     <>
-      <Carousel>
+      <Carousel id="slider">
         {sliderData.map((item) => {
           return (
             <Carousel.Item key={item.id}>
