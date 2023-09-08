@@ -1,9 +1,9 @@
-import React from "react";
+import React, { memo } from "react";
 import { Carousel } from "react-bootstrap";
 import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
 
-export default function SliderImage({ img, title, description }) {
+export default memo(function SliderImage({ img, title, description }) {
   return (
     <div>
       <img style={{ width: "100%" }} src={img} alt={description} />
@@ -25,4 +25,4 @@ export default function SliderImage({ img, title, description }) {
       </Carousel.Caption>
     </div>
   );
-}
+});

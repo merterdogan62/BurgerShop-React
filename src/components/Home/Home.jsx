@@ -1,6 +1,6 @@
-import React from "react";
+import React, { memo } from "react";
 import Slider from "../Slider/Slider";
 
-export default function Home() {
+export default memo(function Home() {
   return <Slider />;
-}
+});
