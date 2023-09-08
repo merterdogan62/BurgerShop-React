@@ -1,8 +1,8 @@
-import React from "react";
+import React, { memo } from "react";
 import Burger from "../../assets/burger.webp";
 import { Box, Typography } from "@mui/material";
 
-export default function About() {
+export default memo(function About() {
   return (
     <div className="container">
       <div className="about-top">
@@ -51,4 +51,4 @@ export default function About() {
       </div>
     </div>
   );
-}
+});
