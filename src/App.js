@@ -9,7 +9,7 @@ import Menu from "./components/Menu";
 
 function App() {
   return (
-    <div className="d-flex flex-column">
+    <div className="main-container">
       <BrowserRouter>
         <AppNavbar></AppNavbar>
         <Routes>
