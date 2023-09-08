@@ -2,7 +2,7 @@ import React from "react";
 import Burger from "../../assets/burger.webp";
 import { Box, Typography } from "@mui/material";
 
-export default function About() {
+function About() {
   return (
     <div className="container">
       <div className="about-top">
@@ -52,3 +52,5 @@ export default function About() {
     </div>
   );
 }
+
+export default React.memo(About);
