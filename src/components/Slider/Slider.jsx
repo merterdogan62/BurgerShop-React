@@ -11,9 +11,8 @@ export default function Slider() {
       <Carousel>
         {sliderData.map((item) => {
           return (
-            <Carousel.Item>
+            <Carousel.Item key={item.id}>
               <SliderImage
-                key={item.id}
                 img={item.url}
                 title={item.title}
                 description={item.description}

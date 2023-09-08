@@ -3,10 +3,10 @@ import { Carousel } from "react-bootstrap";
 import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
 
-export default function SliderImage({ key, img, title, description }) {
+export default function SliderImage({ img, title, description }) {
   return (
     <div>
-      <img style={{ width: "100%" }} key={key} src={img} alt={description} />
+      <img style={{ width: "100%" }} src={img} alt={description} />
       <Carousel.Caption>
         <h3>{title}</h3>
         <p>{description}</p>
