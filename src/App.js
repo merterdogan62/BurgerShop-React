@@ -1,3 +1,4 @@
+import "reset-css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import AppNavbar from "./components/AppNavbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -6,6 +7,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Menu from "./components/Menu";
+
 function App() {
   return (
     <div className="App">
