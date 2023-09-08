@@ -18,7 +18,7 @@ export default function About() {
         </Box>
       </div>
       <div className="content">
-        <h1>About Us</h1>
+        <h1 style={{ textAlign: "center" }}>About Us</h1>
         <Typography
           sx={{ fontSize: { xs: "0.6rem", sm: "0.7rem", md: "1rem" } }}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis

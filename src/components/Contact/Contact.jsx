@@ -53,9 +53,20 @@ export default function Contact() {
             justifyContent: "start",
           }}
           className="form-area">
-          <TextField className="mt-2" label="Name" variant="standard" />
-          <TextField className="mt-2" label="E-Mail" variant="standard" />
           <TextField
+            name="name"
+            className="mt-2"
+            label="Name"
+            variant="standard"
+          />
+          <TextField
+            name="email"
+            className="mt-2"
+            label="E-Mail"
+            variant="standard"
+          />
+          <TextField
+            name="message"
             className="mt-2"
             id="outlined-multiline-static"
             label="Message"

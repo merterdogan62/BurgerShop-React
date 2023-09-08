@@ -12,14 +12,18 @@ export default function AppNavbar() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <LinkContainer to="/">
-              <Navbar.Brand className="d-block w-100">
+              <Navbar.Brand className="d-flex w-100">
                 <MediaQuery maxWidth={575}>
-                  {" "}
                   <img
-                    style={{ height: "70px", width: "70px" }}
+                    style={{
+                      height: "70px",
+                      width: "70px",
+                      marginLeft: "auto",
+                      marginRight: "auto",
+                    }}
                     src={Logo}
                     alt="Burger Logo"
-                  />{" "}
+                  />
                 </MediaQuery>
 
                 <MediaQuery minWidth={575}>
