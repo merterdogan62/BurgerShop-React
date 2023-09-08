@@ -1,4 +1,4 @@
-import BurgerMeal from "../assets/burger.jpg";
+import BurgerMeal from "../assets/burger.webp";
 
 export const burgers = [
   {
