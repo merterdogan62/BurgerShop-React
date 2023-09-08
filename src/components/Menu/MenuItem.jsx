@@ -14,8 +14,8 @@ export default function MenuItem({ image, name, content, price }) {
   return (
     <Grid container className=" d-flex flex-column">
       <Grid item>
-        <Item style={{ height: "100px" }}>
-          <img src={image} height="100px" alt={name} />
+        <Item>
+          <img src={image} width="100px" height="100px" alt={name} />
         </Item>
       </Grid>
 
