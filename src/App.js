@@ -1,4 +1,3 @@
-import "reset-css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import AppNavbar from "./components/AppNavbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -10,7 +9,7 @@ import Menu from "./components/Menu";
 
 function App() {
   return (
-    <div className="App">
+    <div className="d-flex flex-column">
       <BrowserRouter>
         <AppNavbar></AppNavbar>
         <Routes>

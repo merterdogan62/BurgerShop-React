@@ -10,6 +10,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 export default function Footer() {
   return (
     <Box
+      className="mt-auto"
       sx={{
         backgroundColor: (theme) =>
           theme.palette.mode === "light"
