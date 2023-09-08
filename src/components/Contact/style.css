@@ -1,0 +1,38 @@
+.contact-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+  font-size: 0.8rem;
+}
+
+.detail {
+  margin: 0;
+}
+
+.social-media {
+  margin-top: 0.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-area {
+    display: flex;
+    flex-direction: column;
+  }
+  .address {
+    border-bottom: 0.5px dashed gray;
+    margin: 5px 0 3px 0;
+    padding: 5px;
+  }
+
+  .contact {
+    border-bottom: 0.5px dashed gray;
+    margin-top: 5px 0 3px 0;
+    padding: 5px;
+  }
+  .opening-hours {
+    margin-top: 5px 0 3px 0;
+    padding: 5px;
+  }
+}
