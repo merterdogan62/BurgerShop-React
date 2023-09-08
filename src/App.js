@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="main-container">
       <BrowserRouter>
-        <AppNavbar></AppNavbar>
+        <AppNavbar />
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
           <Route exact path="/menu" element={<Menu />}></Route>

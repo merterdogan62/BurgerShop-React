@@ -4,6 +4,6 @@
   flex-direction: column;
 }
 
-.layout main {
+.main-container BrowserRouter {
   flex-grow: 1;
 }
