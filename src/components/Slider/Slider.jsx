@@ -1,11 +1,11 @@
-import React, { memo } from "react";
+import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import { sliderData } from "../../data/SliderData";
 import SliderImage from "./SliderImage";
 
-export default memo(function Slider() {
+export default function Slider() {
   return (
     <>
       <Carousel id="slider">
@@ -23,4 +23,4 @@ export default memo(function Slider() {
       </Carousel>
     </>
   );
-});
+}
