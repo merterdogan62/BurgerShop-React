@@ -6,12 +6,12 @@ import {
   Contact as contact,
   SocialMediaLinks,
   ShopCoordinate,
-} from "../../data/ContactData";
+} from "../../../data/ContactData";
 
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import BurgerLogo from "../../assets/burger-logo.svg";
+import BurgerLogo from "../../../assets/burger-logo.svg";
 import SendIcon from "@mui/icons-material/Send";
 import "./style.css";
 
@@ -129,7 +129,7 @@ export default function Contact() {
               title="Burger Shop"
               src={shopLocationString}
               width="100%"
-              height="500px"></iframe>
+              height="300px"></iframe>
           </div>
         </div>
       </div>

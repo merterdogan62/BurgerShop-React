@@ -10,8 +10,8 @@ export const Contact = {
 
 export const SocialMediaLinks = {
   facebook: "https://facebook.com/",
-  instagram: "https://instagram.com/",
-  linkedin: "https://linkedin.com/",
+  instagram: "https://instagram.com/merterdogan62",
+  linkedin: "https://www.linkedin.com/in/merterdogan62/",
 };
 
 export const ShopCoordinate = {

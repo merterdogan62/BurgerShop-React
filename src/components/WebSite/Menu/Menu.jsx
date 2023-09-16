@@ -1,5 +1,5 @@
 import React from "react";
-import { burgers } from "../../data/BurgerData";
+import { burgers } from "../../../data/BurgerData";
 import MenuItem from "./MenuItem";
 import { Box } from "@mui/material";
 

@@ -7,6 +7,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import "./style.css";
+import { SocialMediaLinks } from "../../../data/ContactData";
 
 export default function Footer() {
   return (
@@ -28,21 +29,21 @@ export default function Footer() {
               color="inherit"
               target="_blanks"
               aria-label="reach me on facebook"
-              href="https://facebook.com/">
+              href={SocialMediaLinks.facebook}>
               <FacebookIcon />
             </Link>
             <Link
               color="inherit"
               target="_blanks"
               aria-label="reach me on instagram"
-              href="https://instagram.com/">
+              href={SocialMediaLinks.instagram}>
               <InstagramIcon />
             </Link>{" "}
             <Link
               color="inherit"
               target="_blanks"
               aria-label="reach me on linkedin"
-              href="https://linkedin.com/">
+              href={SocialMediaLinks.linkedin}>
               <LinkedInIcon />
             </Link>
           </div>

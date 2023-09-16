@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import Logo from "../../assets/burger-logo.svg";
+import Logo from "../../../assets/burger-logo.svg";
 import MediaQuery from "react-responsive";
 import { LinkContainer } from "react-router-bootstrap";
 
